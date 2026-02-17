@@ -65,16 +65,17 @@ def extract_json_data(raw_json_data):
                 item = item_obj["item"]
                 #Get Sub item Information
                 items_data = {
-                    "item_id": item.get("id"),
-                    "item_name": item.get("name"),
-                    "item_slugs": item.get("tag_slugs"),
-                    "item_description": item.get("desc"),
-                    "is_veg": bool(item.get("dietary_slugs"))
+                    "item_id": item['id'],
+                    "item_name": item["name"],
+                    "item_slugs": item["tag_slugs"],
+                    "item_description": item["desc"],
+                    "is_veg": bool(item["dietary_slugs"])
                 }
                 category_data["items"].append(items_data)
             menu_category.append(category_data)
         data_dict['menu_categories'] = menu_category
     return data_dict
+    print(data_dict)
 current_date= datetime.date.today() #Find Current Date
 
 #Convert Python File into Json File 
