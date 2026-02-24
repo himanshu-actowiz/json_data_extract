@@ -3,10 +3,10 @@
     "restaurant_name": "Sahtain",
     "restaurant_url": "https://www.zomato.com/ahmedabad/sahtain-ambli/order",
     "restaurant_contact": "+919227989587",
-    "fssai_licence_number": "Lic. No. 10725026001346",
+    "fssai_licence_number": "10725026001346",
     "address_info": {
         "full_address": "TP 212, FP 13, Survey 318, Iscon Road, Near Indian Oil Petrol Pump, Ambli, Ahmedabad",
-        "region": "India",
+        "region": "Ambli",
         "city": "Ahmedabad",
         "pincode": "380058",
         "state": "Gujarat"
@@ -45,6 +45,36 @@
             "url": "https://www.zomato.com/ahmedabad/restaurants/fast-food/"
         }
     ],
+    "timings": {
+        "Monday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Tuesday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Wednesday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Thursday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Friday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Saturday": {
+            "open": "12pm",
+            "close": "11pm"
+        },
+        "Sunday": {
+            "open": "12pm",
+            "close": "11pm"
+        }
+    },
     "menu_categories": [
         {
             "category_name": "Soups",
@@ -222,7 +252,7 @@
             ]
         },
         {
-            "category_name": "",
+            "category_name": "Main Course",
             "items": [
                 {
                     "item_id": "ctl_763992111",
@@ -461,7 +491,7 @@
             ]
         },
         {
-            "category_name": "",
+            "category_name": "Rice",
             "items": [
                 {
                     "item_id": "ctl_763992144",
@@ -569,7 +599,7 @@
             ]
         },
         {
-            "category_name": "",
+            "category_name": "Snacks",
             "items": [
                 {
                     "item_id": "ctl_763992158",
@@ -857,7 +887,7 @@
             ]
         },
         {
-            "category_name": "",
+            "category_name": "Wraps",
             "items": [
                 {
                     "item_id": "ctl_763992164",
@@ -908,7 +938,7 @@
             ]
         },
         {
-            "category_name": "",
+            "category_name": "Accompaniment",
             "items": [
                 {
                     "item_id": "ctl_763992179",
