@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS Restaurant_information(
 );
 """)
 
-# Agar struct dict hai to list bana do
+
 if isinstance(struct, dict):
     struct = [struct]
 
